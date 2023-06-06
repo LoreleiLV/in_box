@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400&family=Raleway:wght@300;500&family=Roboto&family=Trochut&display=swap');
+
+body{
+    font-family: "Roboto";
+}
+
+.box {
+    display: flex;
+}
+
+aside{
+    width: 25%;
+    border-right:  solid #E8EBE4 2px ;
+}
+
+.avatar img{
+    height: 2.5rem ;
+    border-radius: 1.5rem;
+    border:solid #E8EBE4 2px ;
+}
+
+.user {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0.7rem 1.25rem 0.3rem 1.6rem;
+    border-bottom: solid #E8EBE4 2px ;
+}
+
+.profile{
+    display: flex;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    color: #bec1bb
+}
+.username{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.conected{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #bec1bb;
+}
+
+.options i { 
+    padding: 0.2rem;    
+}
+
+button{
+    background-color: #a491da;
+    margin: 1rem;
+    text-align: center;
+    color:#fff;
+    border: none;
+    width: 80%;
+    height: 3rem;
+    padding: 0.2rem;
+    align-items: center;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: #CDC3E6 ;
+    cursor:pointer ;
+}
+
+button:focus{
+    background-color: #bec1bb ; }
+
+.newchat{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.chatbox img{
+    height: 3rem;
+    border-radius: 50%;
+    border:solid #E8EBE4 2px ;
+}
+
+.message {
+    font-size: 0.87rem;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.chatbox {
+    display: flex;
+    padding: 0 0 0 1px;
+    border-top: solid #E8EBE4 2px ;
+    padding: 0.5rem 1rem 1rem 0.5rem;
+}
+
+.contact{
+    padding-left: 10px;
+}
+
+.chatbox:hover{
+    background-color: #d4dcff;
+    cursor:pointer ;
+    border-radius: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+main img{ height: 18rem;
+}
+
+main h1 {
+    font-weight: 0.5rem ;
+    font-size: 2.8rem ;
+    margin-bottom: 0 ;
+    padding-bottom: 0.7rem;
+}
+
+main h2{
+
+    font-size: 1.3rem;
+    margin: 0 390px 0 390px;
+    text-align: center;
+}
